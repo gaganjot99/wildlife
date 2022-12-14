@@ -63,7 +63,7 @@ let observer = new IntersectionObserver(
     });
   },
   {
-    rootMargin: "-100px",
+    rootMargin: "0px",
   }
 );
 function addObserver(el) {
