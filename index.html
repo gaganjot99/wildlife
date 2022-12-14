@@ -1,47 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wildlife</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="src/style.css">
-</head>
-<body>
-    <nav class="nav bg-light ">
-        <div class="nav-div p-relative d-flex-s-b w-100 px-xl-1 ">
-            <h1 class="font-custom">Homme Folle</h1>
-            <button id="nav-btn" class="btn nav-btn"><i class="bi bi-list"></i></button>
-            <div class="nav-collapse collapse">
-                <ul class="d-flex-s-b nav-list">
-                    <li><button class="btn nav-item">HOME</button></li>
-                    <li><button class="btn nav-item">ABOUT</button></li>
-                    <li><button class="btn nav-item">GALLERY</button></li>
-                    <li><button class="btn nav-item">PROJECTS</button></li>
-                    <li><button class="btn nav-item">CONTACT</button></li>
-                </ul>
-            </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <nav class="nav bg-light in-center">
+      <div class="nav-div p-relative d-flex-s-b w-100 px-xl-1">
+        <h1 class="font-custom fs-md">Homme Folle</h1>
+        <button id="nav-btn" class="btn nav-btn">
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="nav-collapse collapse">
+          <ul class="d-flex-s-b nav-list">
+            <li><button class="btn nav-item">HOME</button></li>
+            <li><button class="btn nav-item">ABOUT</button></li>
+            <li><button class="btn nav-item">GALLERY</button></li>
+            <li><button class="btn nav-item">PROJECTS</button></li>
+            <li><button class="btn nav-item">CONTACT</button></li>
+          </ul>
         </div>
+      </div>
     </nav>
     <div>
-        <div class="top-img-collage in-center">
-            <div class="bio-main m-auto c-white">
-                <p class="fs-sm">Homme Folle</p>
-                <h1 class="fs-xl font-custom py-1">WILDLIFE PHOTOGRAPHER</h1>
-                <p class="fs-sm">SINCE 2008</p>
-            </div>
+      <div class="top-img-collage in-center">
+        <div class="bio-main m-auto c-white">
+          <p class="fs-sm line-before-text line-after-text name-on-pic">
+            Homme Folle
+          </p>
+          <h1 class="fs-xl font-custom py-1">WILDLIFE PHOTOGRAPHER</h1>
+          <p class="fs-sm">SINCE 2008</p>
         </div>
-        <article class="container-md-1">
-            <div class="bio-header">
-                <p class="fs-xs">ABOUT ME</p>
-            </div>
-
-        </article>
+      </div>
+      <article class="container-md-1 m-auto d-flex-s-b py-md-5">
+        <div class="bio-header f-basis-33">
+          <p class="fs-xs line-before-text" style="width: 45%">ABOUT ME</p>
+          <h1 class="fs-lg font-custom">Latio In The Counter To The Focus</h1>
+        </div>
+        <div class="bio-desc fw-500">
+          <p class="fs-xs lh-md">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis porro
+            numquam deleniti officiis, eos placeat veniam aliquid. Optio
+            voluptatum nulla non odit fugiat adipisci minima animi, quod neque,
+            amet nam!
+          </p>
+          <p class="fs-xs lh-md">
+            Adipisicing elit. Sed error assumenda, ullam ducimus ex voluptatum
+            dicta! Nesciunt, ducimus obcaecati reiciendis laboriosam nostrum.
+          </p>
+        </div>
+      </article>
+      <div class="gallery">
+        <div class="gallery-div d-flex-s-b">
+          <div class="gallery-col gallery-col-1">
+            <img src="images/img2.jpg" />
+            <img src="images/img6.jpg" />
+            <img src="images/img1.jpg" />
+          </div>
+          <div class="gallery-col gallery-col-2">
+            <img src="images/img3.jpg" />
+            <img src="images/img5.jpg" />
+            <img src="images/img8.jpg" />
+            <img src="images/img7.jpg" />
+          </div>
+          <div class="gallery-col gallery-col-3">
+            <img src="images/img4.jpg" />
+            <img src="images/img9.jpg" />
+            <img src="images/img10.jpg" />
+          </div>
+        </div>
+        <button class="btn m-auto d-block my-md-3 btn-underline fs-xs fw-500">
+          SEE MY GALLERY
+        </button>
+      </div>
+    </div>
+    <div class="projects">
+      <div class="projects-header"></div>
+      <div class="projects-slideshow p-relative">
+        <img class="" src="images/tiger4.jpg" />
+        <h1 class="project-name c-white fw-500 fs-xl">ROYAL BENGAL TIGER</h1>
+      </div>
+      <button class="btn m-auto d-block my-md-3 btn-underline fs-xs fw-500">
+        VIEW PROJECTS
+      </button>
     </div>
     <footer></footer>
     <script src="src/main.js"></script>
-</body>
+  </body>
 </html>
